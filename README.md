@@ -4,8 +4,8 @@
 **A High level PyTorch Training and Utility Library**
 
 [![Read the Docs](https://img.shields.io/readthedocs/torchmate?style=flat&logo=readthedocs&logoColor=orange&color=blue)](https://torchmate.readthedocs.io/en/latest/)
- ![hello](https://github.com/saihanbro/testactions/actions/workflows/test.yml/badge.svg)
-[![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/saihanbro/testactions/test.yml?branch=main)](https://github.com/saihanbro/testactions/actions/workflows/test.yml) 
+![hello](https://github.com/saihanbro/testactions/actions/workflows/test.yml/badge.svg)
+[![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/saihanbro/testactions/test.yml?branch=main?style=flat&logo=github&logoColor=blue&color=limegreen)](https://github.com/saihanbro/testactions/actions/workflows/test.yml) 
 
 [![PyPI](https://img.shields.io/pypi/v/torchmate?style=flat)](https://pypi.org/project/torchmate/)
 [![Code style: black](https://img.shields.io/badge/Code%20Style-black-000000.svg)](https://github.com/psf/black)
