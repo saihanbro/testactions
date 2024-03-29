@@ -1,4 +1,4 @@
- define BG # background
+define BG # background
   $(shell echo -e "\033[46m") 
 endef
 
