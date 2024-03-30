@@ -4,9 +4,9 @@
 **A High level PyTorch Training and Utility Library**
 
 
-[![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/saihanbro/testactions/pypi.yml?branch=main&label=build&logo=github&color=31C553&logoColor=959DA5&labelColor=3B434B)](https://github.com/saihanbro/testactions/actions/workflows/pypi.yml)
-[![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/saihanbro/testactions/test.yml?branch=main&label=test&logo=github&color=31C553&logoColor=959DA5&labelColor=3B434B)](https://github.com/saihanbro/testactions/actions/workflows/test.yml) 
-![Codecov](https://img.shields.io/codecov/c/github/saihanbro/testactions?logo=codecov&labelColor=3B434B)
+[![GitHub Workflow Status (branch)](https://github.com/saihanbro/testactions/actions/workflows/pypi.yml/badge.svg)](https://github.com/saihanbro/testactions/actions/workflows/pypi.yml)
+[![GitHub Workflow Status (branch)](https://github.com/saihanbro/testactions/actions/workflows/test.yml/badge.svg)](https://github.com/saihanbro/testactions/actions/workflows/test.yml) 
+[![Codecov](https://img.shields.io/codecov/c/github/saihanbro/testactions?logo=codecov&labelColor=3B434B)](https://app.codecov.io/gh/saihanbro/testactions)
 [![Read the Docs](https://img.shields.io/readthedocs/torchmate?style=flat&logo=readthedocs&logoColor=orange&color=blue&labelColor=3B434B)](https://torchmate.readthedocs.io/en/latest/)
 
 [![PyPI](https://img.shields.io/pypi/v/torchmate?style=flat&labelColor=3B434B)](https://pypi.org/project/torchmate/)
