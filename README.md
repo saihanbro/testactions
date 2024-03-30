@@ -3,14 +3,20 @@
 ![logo](https://i.ibb.co/tzsKgkR/Torchmate-logo-v1.png)  
 **A High level PyTorch Training and Utility Library**
 
-[![Read the Docs](https://img.shields.io/readthedocs/torchmate?style=flat&logo=readthedocs&logoColor=orange&color=blue)](https://torchmate.readthedocs.io/en/latest/)
-![hello](https://github.com/saihanbro/testactions/actions/workflows/test.yml/badge.svg)
-[![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/saihanbro/testactions/test.yml?branch=main?style=flat&logo=github&logoColor=blue&color=limegreen)](https://github.com/saihanbro/testactions/actions/workflows/test.yml) 
 
-[![PyPI](https://img.shields.io/pypi/v/torchmate?style=flat)](https://pypi.org/project/torchmate/)
-[![Code style: black](https://img.shields.io/badge/Code%20Style-black-000000.svg)](https://github.com/psf/black)
-[![MIT License](https://img.shields.io/badge/License-MIT-<COLOR>.svg?style=flat)](https://github.com/SaihanTaki/torchmate/blob/master/LICENSE.txt)
-[![Python Version](https://img.shields.io/pypi/pyversions/torchmate?style=flat)](https://www.python.org/)
+[![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/saihanbro/testactions/pypi.yml?branch=main&label=build&logo=github&color=31C553&logoColor=959DA5&labelColor=3B434B)](https://github.com/saihanbro/testactions/actions/workflows/pypi.yml)
+[![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/saihanbro/testactions/test.yml?branch=main&label=test&logo=github&color=31C553&logoColor=959DA5&labelColor=3B434B)](https://github.com/saihanbro/testactions/actions/workflows/test.yml) 
+![Codecov](https://img.shields.io/codecov/c/github/saihanbro/testactions?logo=codecov&labelColor=3B434B)
+[![Read the Docs](https://img.shields.io/readthedocs/torchmate?style=flat&logo=readthedocs&logoColor=orange&color=blue&labelColor=3B434B)](https://torchmate.readthedocs.io/en/latest/)
+
+[![PyPI](https://img.shields.io/pypi/v/torchmate?style=flat&labelColor=3B434B)](https://pypi.org/project/torchmate/)
+[![Code Style](https://img.shields.io/badge/codestyle-black-black?style=flat&label=code%20style&labelColor=3B434B)](https://github.com/psf/black)
+[![MIT License](https://img.shields.io/badge/License-MIT-<COLOR>.svg?style=flat&labelColor=3B434B)](https://github.com/SaihanTaki/torchmate/blob/master/LICENSE.txt)
+[![Python Version](https://img.shields.io/pypi/pyversions/torchmate?style=flat&labelColor=3B434B)](https://www.python.org/)
+ 
+
+
+</div>
 
 ### [📚 Project Documentation](https://torchmate.readthedocs.io/en/latest/)
 

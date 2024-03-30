@@ -61,7 +61,7 @@ jobs:
     - name: Install dependencies
       run: make install_dev
     - name: Run Tests
-      run: make test_codecov
+      run: make test
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v4
       with:
