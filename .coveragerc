@@ -1,0 +1,2 @@
+[run]
+omit = torchmate/__version__.py
