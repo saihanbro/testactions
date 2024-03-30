@@ -26,8 +26,8 @@ install_dev: .venv
 
 test: .venv
 	@echo -e "$(FG)$(BG)Testing the Package.......$(RESET)"
-	.venv/bin/python -m pytest
-
+	.venv/bin/python -m coverage run --source=torchmate -m pytest -v tests
+	
 black: .venv
 	@echo -e "$(FG)$(BG)Running Black.......$(RESET)"
 	.venv/bin/black torchmate/ --config=pyproject.toml --check
