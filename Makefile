@@ -26,7 +26,7 @@ install_dev: .venv
 
 test: .venv
 	@echo -e "$(FG)$(BG)Testing the Package.......$(RESET)"
-	.venv/bin/python -m coverage run --source=torchmate -m pytest -v tests
+	.venv/bin/coverage run -m pytest
 	
 black: .venv
 	@echo -e "$(FG)$(BG)Running Black.......$(RESET)"
@@ -38,9 +38,12 @@ flake8: .venv
 
 clean:
 	@echo -e "$(FG)$(BG)Cleaning Caches.......$(RESET)"
-	rm -rf .pytest_cache __pycache__ torchmate.egg-info
+	rm -rf .pytest_cache __pycache__ torchmate.egg-info .coverage
 	rm -rf $(shell find torchmate/  -name "__pycache__" -type d)
-	rm -rf $(shell find torchmate  -name ".pytest_cache" -type d)
+	rm -rf $(shell find tests/  -name ".pytest_cache" -type d)
+	rm -rf $(shell find tests/  -name ".coverage" -type f)
+	rm -rf build dist
+	rm -rf htmlcov
 
 
 all: clean black flake8 test
