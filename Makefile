@@ -46,7 +46,7 @@ install_all: install_dev install_doc_req install_pypi_req
 
 test: $(VENV_NAME)
 	@echo -e "$(FG)$(BG)Testing the Package.......$(RESET)"
-	$(VENV_NAME)/bin/python -m pytest --cov=torchmate --cov-report xml:coverage.xml
+	$(VENV_NAME)/bin/python -m pytest --cov=torchmate --cov-report xml:coverage.xml --cov-config=.coveragerc
 
 test_cover: $(VENV_NAME)
 	@echo -e "$(FG)$(BG)Testing the Package.......$(RESET)"
