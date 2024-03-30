@@ -46,17 +46,11 @@ install_all: install_dev install_doc_req install_pypi_req
 
 test: $(VENV_NAME)
 	@echo -e "$(FG)$(BG)Testing the Package.......$(RESET)"
-	$(VENV_NAME)/bin/python -m pytest
+	$(VENV_NAME)/bin/python -m pytest --cov=torchmate --cov-report xml:coverage.xml
 
 test_cover: $(VENV_NAME)
 	@echo -e "$(FG)$(BG)Testing the Package.......$(RESET)"
 	$(VENV_NAME)/bin/python -m coverage run --source=torchmate -m pytest -v tests && coverage report -m && coverage html
-
-test_codecov: $(VENV_NAME)
-	@echo -e "$(FG)$(BG)Testing Code coverage.......$(RESET)"
-	$(VENV_NAME)/bin/python -m pip install --upgrade pip
-	$(VENV_NAME)/bin/pip install pytest-cov requests
-	$(VENV_NAME)/bin/python -m pytest --cov=torchmate --cov-report xml:coverage.xml --cov-report term
 
 black: $(VENV_NAME)
 	@echo -e "$(FG)$(BG)Running Black.......$(RESET)"
@@ -65,6 +59,7 @@ black: $(VENV_NAME)
 flake8: $(VENV_NAME)
 	@echo -e "$(FG)$(BG)Running Flake8 Test.......$(RESET)"
 	$(VENV_NAME)/bin/flake8 torchmate/ --config=.flake8
+
 
 isort: .venv
 	@echo -e "$(FG)$(BG)Running Isort.......$(RESET)"
