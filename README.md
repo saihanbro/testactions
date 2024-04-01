@@ -112,7 +112,7 @@ history = trainer.fit()
 
 ```
 
-
+### Contributions are welcomed
 
 ### 🛡️ License <a name="license"></a>
 Torchmate is distributed under [MIT License](https://github.com/SaihanTaki/torchmate/blob/master/LICENSE.txt)
